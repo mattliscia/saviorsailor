@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Savior Sailor - Care Package</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Send a personalized care package to sailors. Support our troops with essential items and a heartfelt message.">
+    <meta name="author" content="Alex Velichko" />
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .image-container {
+            height: 200px;
+        }
+        .call-to-action-bottom {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 4rem;
+        }
+        .call-to-action-bottom .btn {
+            margin-bottom: 1rem;
+        }
+
+        #fh5co-care-package {
+    padding-top: 100px; /* Adjust the padding value as needed */
+}
+
+ul.custom-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul.custom-list li {
+    margin-bottom: 10px; /* Add some space between items */
+    padding-left: 20px; /* Add some padding for better alignment */
+    position: relative; /* Position relative to allow for custom bullet */
+}
+
+    </style>
+</head>
+<body>
+<header role="banner" id="fh5co-header">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    <a class="navbar-brand" href="index.html">Savior Sailor</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="about.html"><span>About</span></a></li>
+                        <li><a href="care_package.html" class="active"><span>Care Package</span></a></li>
+                        <li><a href="reviews.html"><span>Reviews</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section id="fh5co-care-package" data-section="care-package">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="animate-box">Send a Care Package</h2>
+                <p>Support our sailors with a personalized care package. Each package includes a variety of essential items to make their time at sea more comfortable and enjoyable. Add a heartfelt message to show your appreciation.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <div class="image-container d-flex align-items-center justify-content-center mb-3 mt-5">
+                    <img src="images/care_package.webp" class="img-fluid" style="max-width: 80%; height: 100%;">
+                </div>
+                <div class="fh5co-post animate-box">
+                    <h3>All-In-One Care Package</h3>
+                    <p>This comprehensive care package includes:</p>
+                    <ul class="custom-list">
+                        <li>
+                            <span style="color: #00ADB5; font-weight: bold; text-decoration: underline;">Assorted Snacks</span>
+                            <p>A selection of tasty snacks including chips, cookies, and protein bars to keep sailors energized and happy during their downtime.</p>
+                        </li>
+                        <li>
+                            <span style="color: #00ADB5; font-weight: bold; text-decoration: underline;">Personal Care Items</span>
+                            <p>Essential toiletries such as toothpaste, deodorant, and shampoo to help sailors stay fresh and comfortable throughout their journey.</p>
+                        </li>
+                        <li>
+                            <span style="color: #00ADB5; font-weight: bold; text-decoration: underline;">Entertainment</span>
+                            <p>Engaging books and fun games to provide much-needed relaxation and entertainment during their leisure time.</p>
+                        </li>
+                        <li>
+                            <span style="color: #00ADB5; font-weight: bold; text-decoration: underline;">Comfort Essentials</span>
+                            <p>Comfort items like cozy socks, eye masks, and blankets to ensure a restful and comfortable experience at sea.</p>
+                        </li>
+                    </ul>
+                    <p><strong>Price: $50.00</strong></p>
+                    <p><strong>Shipping anywhere in the world included!</strong></p>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3 class="text-center">Add a Personalized Message</h3>
+                <form action="https://your-backend-endpoint.com/send-message" method="post" id="personalizedMessageForm">
+                    
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="7" placeholder="Your Personalized Message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="sr-only">From</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="From" required>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary btn-md" onclick="submitForm()">Buy Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div id="fh5co-footer" role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 animate-box">
+                <h3 class="section-title">Savior Sailor</h3>
+                <p>Savior Sailor has got your back whether it is your first OR last time leaving home. Thank you for your service and support!</p>
+            </div>
+
+            <div class="col-md-4 animate-box">
+                <h3 class="section-title">Connect with Us</h3>
+                <ul class="contact-info">
+                    <!-- <li><i class="icon-map"></i>198 West 21th Street, Suite 721 New York NY 10016</li> -->
+                    <!-- <li><i class="icon-phone"></i>+ 1235 2355 98</li> -->
+                    <li><i class="icon-envelope"></i><a href="#">saviorsailor75@gmail.com</a></li>
+                    <li><i class="icon-globe"></i><a href="#">www.saviorsailor.com</a></li>
+                </ul>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/profile.php?id=100075436362467" class="facebook"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/savior.sailor/" class="instagram"><i class="icon-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 animate-box">
+                <h3 class="section-title">Drop us a line</h3>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="name" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea class="form-control" id="message" rows="7" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copy-right">&copy; 2024 Savior Sailor. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Stellar Parallax -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Counters -->
+<script src="js/jquery.countTo.js"></script>
+<!-- Main JS (Do not remove) -->
+<script src="js/main.js"></script>
+
+<script>
+    function submitForm() {
+        document.getElementById('personalizedMessageForm').submit();
+        window.location.href = 'https://buy.stripe.com/test_4gwfZ8j5j5kT5Es3cc';
+    }
+</script>
+</body>
+</html>
