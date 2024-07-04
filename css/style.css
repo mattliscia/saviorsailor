@@ -939,7 +939,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 #fh5co-footer .contact-info {
-  margin: 0 0 60px 0;
+  margin: 0 0 20px 0;
   padding: 0;
 }
 #fh5co-footer .contact-info li {
@@ -963,7 +963,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 #fh5co-footer .social-media {
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
   padding: 0;
 }
 #fh5co-footer .social-media li {
@@ -982,6 +982,32 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-footer .social-media li a i {
   font-size: 22px;
 }
+
+#fh5co-footer .row.d-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#fh5co-footer .col-md-5 {
+  margin-bottom: 2rem; /* Add space between rows on smaller screens */
+}
+
+/* Left-align columns on mobile devices */
+@media (max-width: 768px) {
+  #fh5co-footer .footer-col {
+      text-align: left;
+      margin-left: 0;
+  }
+
+  #fh5co-footer .footer-col ul, 
+  #fh5co-footer .footer-col p {
+      text-align: left;
+  }
+}
+
+
+
 #fh5co-footer .contact-form .form-group input[type="name"],
 #fh5co-footer .contact-form .form-group input[type="text"],
 #fh5co-footer .contact-form .form-group input[type="email"],
