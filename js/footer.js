@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </ul>
                         <ul class="social-media">
                             <li><a href="https://www.facebook.com/profile.php?id=100075436362467" class="facebook" target="_blank"><i class="icon-facebook"></i></a></li>
-                            <li><a href="https://www.instagram.com/savior.sailor/" class="instagram"><i class="icon-instagram" target="_blank"></i></a></li>
+                            <li><a href="https://www.instagram.com/savior.sailor/" class="instagram" target="_blank"><i class="icon-instagram"></i></a></li>
                             <li><a href="https://www.youtube.com/channel/UCyII3UTiO0U8al3tDQ8OHOA" class="instagram" target="_blank"><i class="icon-youtube-play"></i></a></li>
                         </ul>
                         <a href="https://calendly.com/spr3adsh33t/sponsor-a-sailor" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Chat with Alex</a>
