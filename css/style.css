@@ -22,6 +22,27 @@ body {
   background: #F4F7F7;
 }
 
+.navbar {
+  min-height: 70px; /* Adjust this value based on your image height */
+}
+
+.navbar-header {
+  height: 100%;
+}
+
+.navbar-brand {
+  padding: 5px 15px;
+  height: 100%;
+}
+
+.navbar-logo {
+  height: 60px; /* Adjust the height to your desired value */
+  max-height: 100%;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
 .mt-3 {
   margin-top: 1rem !important;
 }
