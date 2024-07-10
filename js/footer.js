@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
                             <li><a href="https://www.instagram.com/savior.sailor/" class="instagram" target="_blank"><i class="icon-instagram"></i></a></li>
                             <li><a href="https://www.youtube.com/channel/UCyII3UTiO0U8al3tDQ8OHOA" class="instagram" target="_blank"><i class="icon-youtube-play"></i></a></li>
                         </ul>
-                        <a href="https://calendly.com/spr3adsh33t/sponsor-a-sailor" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Chat with Alex</a>
-                        <a href="https://forms.google.com" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Become a Sponsored Sailor</a>
+                        <a href="https://calendly.com/saviorsailor75" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Chat with Alex</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Become a Sponsored Sailor</a>
                     </div>
                 </div>
                 <div class="row">
