@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <h3 class="section-title">Savior Sailor</h3>
                         <p>Savior Sailor has got your back whether it is your first OR last time leaving home.
                             Thank you for your service and support!</p>
+                        <img src="images/logo.png" style="max-width:200px" class="mb-5">
                     </div>
 
                     <div class="col-md-5 animate-box footer-col">
