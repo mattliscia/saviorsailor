@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="https://calendly.com/saviorsailor75" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Chat with Alex</a>
                         <br>
                         <p class="mt-5">Are you on active duty?</p>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" class="btn btn-primary" target="_blank" style="height: 40px;">Become a Sponsored Sailor</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" class="btn btn-primary" target="_blank" style="height: 40px;">Sign Up to Receive a Care Package</a>
                     </div>
                 </div>
                 <div class="row">
