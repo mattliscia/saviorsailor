@@ -87,6 +87,32 @@
     box-sizing: border-box;
 }
 
+.scrolling-strip {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            background-color: #f3f3f3;
+        }
+        .scrolling-strip img {
+            width: 200px;
+            height: auto;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        .scrolling-strip-container {
+            display: flex;
+			align-items: center;
+            animation: scroll 20s linear infinite;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
 /* Optional: Adjust max-width for smaller screens */
 @media (max-width: 768px) {
     .btn-responsive {
@@ -119,7 +145,7 @@
 							<li class="active"><a href="index.html" data-nav-section="home"><span>Home</span></a></li>
 							<li><a href="about.html" data-nav-section="explore"><span>About</span></a></li>
 							<li><a href="care_packages.html"><span>Send a Care Package</span></a></li>
-							<li><a href="sponsor_a_sailor.html" data-nav-section="testimony"><span>Sponsor a Sailor</span></a></li>
+							<li><a href="sponsor_a_sailor.html" data-nav-section="testimony"><span>Become a Sponsor</span></a></li>
 							<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" target="_blank"><span>Receive a Care Package</span></a></li>
 						</ul>
 					</div>
@@ -142,7 +168,7 @@
 							<div class="call-to-action">
 								<br>
 								<a href="care_packages.html" class="download animate-box mb-3">Send a Care Package</a>
-								<a href="sponsor_a_sailor.html" class="demo animate-box mb-3">Sponsor a Sailor</a>
+								<a href="sponsor_a_sailor.html" class="demo animate-box mb-3">Become a Sponsor</a>
 								<a href="Savior Sailor E-Book.pdf" class="download animate-box mb-3" target="_blank">E-Book</a>
 								<a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" class="demo animate-box mb-3" target="_blank">Receive a Care Package</a>
 							</div>
@@ -220,19 +246,80 @@
 						<span class="fh5co-counter-label">Care Packages Sent</span>
 					</div>
 					<div class="col-md-4 text-center">
-						<span class="fh5co-counter js-counter" data-from="0" data-to="212" data-speed="2000" data-refresh-interval="50"></span>
+						<span class="fh5co-counter js-counter" data-from="0" data-to="829" data-speed="2000" data-refresh-interval="50"></span>
 						<span class="fh5co-counter-label">Sailors Sponsored</span>
 					</div>
 					<div class="col-md-4 text-center">
-						<span class="fh5co-counter js-counter" data-from="0" data-to="38" data-speed="2000" data-refresh-interval="50"></span>
-						<span class="fh5co-counter-label">Sponsoring Businesses</span>
+						<span class="fh5co-counter js-counter" data-from="0" data-to="74" data-speed="2000" data-refresh-interval="50"></span>
+						<span class="fh5co-counter-label">Sponsors</span>
 					</div>
 				</div>
 			</div>
 		</div>
 		
 	</section>
+
 	<section id="fh5co-testimony" data-section="testimony">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="animate-box"><span>We Thank Our Sponsors</span></h2>
+				</div>
+			<div class="scrolling-strip">
+				
+				<div class="scrolling-strip-container">
+					<a href="https://naterentals.com" target="_blank"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+					<a href="https://alwaysanangelhomecare.com" target="_blank"><img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2"></a>
+					<a href="https://happyhopper.app" target="_blank"><img src="images/sponsors/happyhopper.png" alt="Image 2"></a>
+					<a href="https://www.greenleafpestsolutionsva.com/" target="_blank"><img src="images/sponsors/green_leaf_pest_control.png" alt="Image 2"></a>
+					<a href="https://naterentals.com" target="_blank"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+					<a href="https://alwaysanangelhomecare.com" target="_blank"><img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2"></a>
+					<a href="https://happyhopper.app" target="_blank"><img src="images/sponsors/happyhopper.png" alt="Image 2"></a>
+					<a href="https://www.greenleafpestsolutionsva.com/" target="_blank"><img src="images/sponsors/green_leaf_pest_control.png" alt="Image 2"></a>
+					<a href="https://naterentals.com" target="_blank"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+					<a href="https://alwaysanangelhomecare.com" target="_blank"><img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2"></a>
+					<a href="https://happyhopper.app" target="_blank"><img src="images/sponsors/happyhopper.png" alt="Image 2"></a>
+					<a href="https://www.greenleafpestsolutionsva.com/" target="_blank"><img src="images/sponsors/green_leaf_pest_control.png" alt="Image 2"></a>
+					
+				</div>
+			</div>
+			<div class="call-to-action-bottom d-flex flex-column align-items-center text-center" style="width: 100%;">
+				<a href="sponsor_a_sailor.html" class="btn btn-primary mt-5 mb-2 btn-responsive">Become a Sponsor</a>
+				<a href="sponsors.html" class="btn btn-primary mt-5 mb-2 btn-responsive">See all Sponsors</a>
+				</div>
+		</div>
+		</div>
+		</section>
+
+	<section id="fh5co-testimony" data-section="testimony" style="display: none;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="animate-box"><span>Our Satisfied Sailors</span></h2>
+				</div>
+			<div class="scrolling-strip">
+				
+				<div class="scrolling-strip-container">
+					<a href="https://naterentals.com"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+					<img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2">
+					<img src="images/sponsors/happyhopper.png" alt="Image 2">
+					<a href="https://naterentals.com"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+					<img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2">
+					<img src="images/sponsors/happyhopper.png" alt="Image 2">
+					<a href="https://naterentals.com"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+					<img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2">
+					<img src="images/sponsors/happyhopper.png" alt="Image 2">
+					<a href="https://naterentals.com"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+					<img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2">
+					<img src="images/sponsors/happyhopper.png" alt="Image 2">
+					
+				</div>
+			</div>
+		</div>
+		</div>
+		</section>
+
+	<section id="fh5co-testimony" data-section="testimony" style="display:none;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
@@ -307,7 +394,7 @@
 
 	
 
-	<div class="call-to-action-bottom d-flex flex-column align-items-center text-center" style="width: 100%;">
+	<div class="call-to-action-bottom d-flex flex-column align-items-center text-center" style="width: 100%; display: none;">
 		<a href="care_packages.html" class="btn btn-primary mb-2 btn-responsive">Send a Care Package</a>
 		<a href="sponsor_a_sailor.html" class="btn btn-primary mb-2 btn-responsive">Sponsor a Sailor</a>
 		<a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Receive a Care Package</a>

@@ -63,6 +63,45 @@
             padding-left: 20px; /* Add some padding for better alignment */
             position: relative; /* Position relative to allow for custom bullet */
         }
+
+        .scrolling-strip {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            background-color: #f3f3f3;
+        }
+        .scrolling-strip img {
+            width: 200px;
+            height: auto;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        .scrolling-strip-container {
+            display: flex;
+            align-items: center;
+            animation: scroll 20s linear infinite;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+/* Optional: Adjust max-width for smaller screens */
+@media (max-width: 768px) {
+    .btn-responsive {
+        width: 90%; /* Wider for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-responsive {
+        width: 100%; /* Full width for very small screens */
+    }
+}
     </style>
 </head>
 <body>
@@ -95,12 +134,18 @@
         <div class="row">
             <div class="col-md-12 section-heading text-center">
                 <h1 class="animate-box">Sponsor a Sailor</h1>
-                <p>Whether you're a company or a individual patriot, join us in supporting our sailors by sponsoring a sailor in need. You can choose to sponsor a sailor from your hometown or one at random. Your sponsorship will provide essential items and heartfelt messages to make their time at sea more comfortable and enjoyable.</p>
+                <p>Whether you're a company or a individual patriot, join us in supporting our sailors by sponsoring a sailor in need. You can choose to sponsor new sailors monthly, sponsor a group all at once, or chat with Alex to customize the sponsorship program to your needs. Your sponsorship will provide essential items and heartfelt messages to make their time at sea more comfortable and enjoyable.</p>
                 <div class="text-center d-flex flex-column align-items-center">
                     <div class="d-flex align-items-center mb-4">
+                        <a href="https://396cc9-ef.myshopify.com/products/care-package-monthly-subscription" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Sponsor a New Sailor Each Month</a>
+                        <a href="https://396cc9-ef.myshopify.com/products/care-package-bundle" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Sponsor 12 Sailors Now</a>
+                    </div>
+                    <div class="d-flex align-items-center mb-4"><h4>OR</h4></div>
+                    <div class="d-flex align-items-center">
                         <a href="https://calendly.com/saviorsailor75" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Chat with Alex to Sponsor</a>
                         <a href="https://calendly.com/saviorsailor75" target="_blank"><img src="images/alex-removebg.png" class="img-fluid" style="height: 40px; width: auto;"></a>
                     </div>
+                    <div class="d-flex align-items-center mb-4"><p>for customization options</p></div>
                 </div>
             </div>
         </div>
@@ -119,21 +164,21 @@
     <div class="fh5co-services">
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-4 text-center d-flex flex-column">
+                <div class="col-md-4 text-center d-flex flex-column mb-4">
                     <div class="fh5co-post animate-box">
                         <h3>Support those who Serve</h3>
                         <p>Take part in our Sponsor a Sailor initiative to make a difference. Send essential care packages to sailors who could use your support.</p>
                         <p>Your contribution not only provides much-needed supplies but also boosts morale and shows appreciation for their service.</p>
                     </div>
                 </div>
-                <div class="col-md-4 text-center d-flex flex-column">
+                <div class="col-md-4 text-center d-flex flex-column mb-4">
                     <div class="fh5co-post animate-box">
                         <h3>How It Works</h3>
                         <p>Start with a meeting with Alex, who will assist in matching your business with sailors in need or from your local area.</p>
                             <p>You can choose to sponsor multiple sailors, support a new sailor each month, or opt for a one-time sponsorship. Alex will tailor the plan to fit your goals, ensuring a meaningful and impactful experience.</p>
                     </div>
                 </div>
-                <div class="col-md-4 text-center d-flex flex-column">
+                <div class="col-md-4 text-center d-flex flex-column mb-4">
                     <div class="fh5co-post animate-box">
                         <h3>Showcase Your Support</h3>
                         <p>Receive pictures or plaques of the sailors you sponsor to display in your establishment. This not only showcases your commitment to supporting the military but also highlights your business’s dedication to the community.</p>
@@ -144,9 +189,15 @@
             <div class="row">
                 <div class="text-center d-flex flex-column align-items-center">
                     <div class="d-flex align-items-center mb-4">
+                        <a href="https://396cc9-ef.myshopify.com/products/care-package-monthly-subscription" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Sponsor a New Sailor Each Month</a>
+                        <a href="https://396cc9-ef.myshopify.com/products/care-package-bundle" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Sponsor 12 Sailors Now</a>
+                    </div>
+                    <div class="d-flex align-items-center mb-4"><h4>OR</h4></div>
+                    <div class="d-flex align-items-center">
                         <a href="https://calendly.com/saviorsailor75" class="btn btn-primary ml-2" target="_blank" style="height: 40px;">Chat with Alex to Sponsor</a>
                         <a href="https://calendly.com/saviorsailor75" target="_blank"><img src="images/alex-removebg.png" class="img-fluid" style="height: 40px; width: auto;"></a>
                     </div>
+                    <div class="d-flex align-items-center mb-4"><p>for customization options</p></div>
                 </div>
                 
                 
@@ -156,6 +207,37 @@
 </section>
 
 <section id="fh5co-testimony" data-section="testimony">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="animate-box"><span>We Thank Our Sponsors</span></h2>
+            </div>
+        <div class="scrolling-strip">
+            
+            <div class="scrolling-strip-container">
+                <a href="https://naterentals.com" target="_blank"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+                <a href="https://alwaysanangelhomecare.com" target="_blank"><img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2"></a>
+                <a href="https://happyhopper.app" target="_blank"><img src="images/sponsors/happyhopper.png" alt="Image 2"></a>
+                <a href="https://www.greenleafpestsolutionsva.com/" target="_blank"><img src="images/sponsors/green_leaf_pest_control.png" alt="Image 2"></a>
+                <a href="https://naterentals.com" target="_blank"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+                <a href="https://alwaysanangelhomecare.com" target="_blank"><img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2"></a>
+                <a href="https://happyhopper.app" target="_blank"><img src="images/sponsors/happyhopper.png" alt="Image 2"></a>
+                <a href="https://www.greenleafpestsolutionsva.com/" target="_blank"><img src="images/sponsors/green_leaf_pest_control.png" alt="Image 2"></a>
+                <a href="https://naterentals.com" target="_blank"><img src="images/sponsors/nate_rentals.png" alt="Image 1"></a>
+                <a href="https://alwaysanangelhomecare.com" target="_blank"><img src="images/sponsors/always_an_angel_homecare.svg" alt="Image 2"></a>
+                <a href="https://happyhopper.app" target="_blank"><img src="images/sponsors/happyhopper.png" alt="Image 2"></a>
+                <a href="https://www.greenleafpestsolutionsva.com/" target="_blank"><img src="images/sponsors/green_leaf_pest_control.png" alt="Image 2"></a>
+                
+            </div>
+        </div>
+        <div class="call-to-action-bottom d-flex flex-column align-items-center text-center" style="width: 100%;">
+            <a href="sponsors.html" class="btn btn-primary mt-5 mb-2 btn-responsive">See all Sponsors</a>
+            </div>
+    </div>
+    </div>
+    </section>
+
+<section id="fh5co-testimony" data-section="testimony" style="display: none;">
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-heading text-center">
