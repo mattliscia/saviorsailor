@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataTable ELO Sorting</title>
+    <!-- Include DataTables CSS and JS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+</head>
+<body>
+    <table id="test-table" class="display">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>ELO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Roon</td>
+                <td>1000.0 (1008.51)</td>
+            </tr>
+            <tr>
+                <td>EldraziSnake3362</td>
+                <td>1000.0 (972.714)</td>
+            </tr>
+            <tr>
+                <td>Minignome</td>
+                <td>1019.0 (1009.23)</td>
+            </tr>
+            <tr>
+                <td>Spr3adsh33t</td>
+                <td>990.5 (1017.58)</td>
+            </tr>
+            <tr>
+                <td>Wildebeest</td>
+                <td>990.5 (991.973)</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    <script>
+$(document).ready(function () {
+    // Custom sorting function for ELO scores
+    $.fn.dataTable.ext.type.order['elo-pre'] = function (data) {
+        console.log("Parsing data: " + data); // Log the data to check if the function is called
+        var match = data.split(" (")[0];
+        var parsedValue = parseFloat(match);
+        console.log("Parsed Value: " + parsedValue); // Log the parsed value
+        return parsedValue;
+    };
+
+    // Test DataTable initialization with custom sorting
+    $('#test-table').DataTable({
+        columnDefs: [
+            { type: 'elo-pre', targets: 1 } // Apply custom sorting to the second column
+        ],
+        "order": [[1, 'desc']] // Sort by the second column
+    });
+});
+
+    </script>
+</body>
+</html>
