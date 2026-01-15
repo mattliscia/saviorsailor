@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Send a Care Package to Sailors | Savior Sailor</title>
+    <meta name="description" content="Send a care package filled with essential items to sailors at sea. $79.99 with FREE worldwide shipping. Designed by an 8-year Navy veteran.">
+    <meta name="keywords" content="military care packages, navy care packages, sailor gifts, deployment care package, send care package to sailor">
+    <meta name="author" content="Alex Velichko">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://saviorsailor.com/care-packages.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Send a Care Package to Sailors | Savior Sailor">
+    <meta property="og:description" content="Send a care package filled with essential items to sailors at sea. $79.99 with FREE worldwide shipping.">
+    <meta property="og:image" content="https://saviorsailor.com/images/care_package.jpeg">
+    <meta property="og:url" content="https://saviorsailor.com/care-packages.html">
+    <meta property="og:site_name" content="Savior Sailor">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Send a Care Package to Sailors">
+    <meta name="twitter:description" content="$79.99 with FREE worldwide shipping. Designed by an 8-year Navy veteran.">
+    <meta name="twitter:image" content="https://saviorsailor.com/images/care_package.jpeg">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': { 50: '#E8F0F7', 100: '#C5D9EB', 500: '#1E3A5F', 600: '#1A3352' },
+                        'sunny': { 100: '#FEF9E7', 300: '#FBE89A', 400: '#F9E06D', 500: '#F7D547', 600: '#E5C33A' },
+                        'sky': { 50: '#F0F9FF', 100: '#E8F4FA', 500: '#6BB8E0', 600: '#4A9FCC' },
+                    },
+                    fontFamily: { 'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'] },
+                },
+            },
+        }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT701YNK8L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KT701YNK8L');
+    </script>
+
+    <!-- Product Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Savior Sailor Essential Care Package",
+        "description": "Care package for sailors with essential items designed by an 8-year Navy veteran",
+        "image": "https://saviorsailor.com/images/care_package.jpeg",
+        "brand": { "@type": "Brand", "name": "Savior Sailor" },
+        "offers": {
+            "@type": "Offer",
+            "price": "79.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "USD" },
+                "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 3, "unitCode": "DAY" } }
+            }
+        }
+    }
+    </script>
+
+    <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="font-sans text-gray-700 antialiased">
+
+    <!-- Navigation -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 md:h-20">
+                <a href="index.html" class="flex-shrink-0">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-12 md:h-14 w-auto">
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-navy-500 font-medium transition">About</a>
+                    <a href="care-packages.html" class="text-navy-500 font-semibold border-b-2 border-sunny-500">Care Packages</a>
+                    <a href="sponsor-a-sailor.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Sponsor</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Gallery</a>
+                </div>
+                <a href="https://396cc9-ef.myshopify.com/products/starter-box-savior-sailor" target="_blank" class="hidden md:inline-flex bg-navy-500 text-white px-5 py-2.5 rounded-full font-semibold hover:bg-navy-600 transition shadow-lg shadow-navy-500/25">
+                    Order Now
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100" aria-label="Open menu">
+                    <svg class="w-6 h-6 text-navy-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="index.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">About</a>
+                    <a href="care-packages.html" class="text-navy-500 font-semibold py-2">Care Packages</a>
+                    <a href="sponsor-a-sailor.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Sponsor</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Gallery</a>
+                    <a href="https://396cc9-ef.myshopify.com/products/starter-box-savior-sailor" target="_blank" class="bg-navy-500 text-white px-5 py-3 rounded-full font-semibold text-center mt-2">Order Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-32 pb-16 bg-gradient-to-b from-sunny-100 to-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <!-- Content -->
+                    <div>
+                        <span class="inline-block bg-sunny-500 text-navy-600 px-4 py-1 rounded-full text-sm font-bold mb-4">FREE Worldwide Shipping</span>
+                        <h1 class="text-4xl sm:text-5xl font-extrabold text-navy-500 mb-6 leading-tight">
+                            Send a Care Package<br>
+                            <span class="text-sunny-600">to Your Sailor</span>
+                        </h1>
+                        <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                            Show your support with a personalized care package designed by an 8-year Navy veteran. Packed with essentials that make life at sea more comfortable.
+                        </p>
+
+                        <!-- Price -->
+                        <div class="bg-white rounded-2xl shadow-lg p-6 mb-8 inline-block">
+                            <div class="flex items-baseline gap-2 mb-2">
+                                <span class="text-4xl font-bold text-navy-500">$79.99</span>
+                                <span class="text-gray-500 line-through">$99.99</span>
+                            </div>
+                            <p class="text-green-600 font-semibold flex items-center gap-2">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                FREE shipping anywhere in the world
+                            </p>
+                        </div>
+
+                        <!-- CTA -->
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="https://396cc9-ef.myshopify.com/products/starter-box-savior-sailor" target="_blank" class="inline-flex items-center justify-center bg-sunny-500 text-navy-600 px-8 py-4 rounded-full text-lg font-bold hover:bg-sunny-400 transition shadow-lg shadow-sunny-500/30">
+                                Send a Care Package
+                                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Image -->
+                    <div class="relative">
+                        <div class="absolute -inset-4 bg-navy-500 rounded-3xl transform rotate-3 opacity-10"></div>
+                        <img src="images/care_package.jpeg" alt="Savior Sailor Care Package Contents" class="relative rounded-3xl shadow-2xl w-full">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's Included Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <span class="inline-block bg-navy-100 text-navy-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">What's Inside</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-navy-500 mb-4">Thoughtfully Curated Essentials</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Every item is hand-selected based on real experiences from 8 years of Navy service and insights from 30+ fellow veterans.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Category 1 -->
+                    <div class="bg-sky-50 rounded-2xl p-8 text-center">
+                        <div class="w-16 h-16 bg-sky-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-4">Essential Items</h3>
+                        <p class="text-gray-600">Designed by an 8-year veteran sailor, this package includes essential items you might not realize you need until you're in a pinch. From hygiene essentials to comfort items, it's everything you need for smooth sailing.</p>
+                    </div>
+
+                    <!-- Category 2 -->
+                    <div class="bg-sunny-50 rounded-2xl p-8 text-center">
+                        <div class="w-16 h-16 bg-sunny-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-4">Fuel Your Day</h3>
+                        <p class="text-gray-600">Enjoy a variety of delicious and nutritious snacks that keep you energized and ready for the day. Perfect for a quick pick-me-up during deployment.</p>
+                    </div>
+
+                    <!-- Category 3 -->
+                    <div class="bg-navy-50 rounded-2xl p-8 text-center">
+                        <div class="w-16 h-16 bg-navy-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-4">Prepared for the Unexpected</h3>
+                        <p class="text-gray-600">These essentials ensure you're never caught off guard, providing you with everything from extra toiletries to entertainment, making your deployment more comfortable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="py-20 bg-gradient-to-b from-sky-50 to-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <span class="inline-block bg-sunny-100 text-sunny-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">Simple Process</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-navy-500">How It Works</h2>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-navy-500 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">1</div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-3">Order Your Package</h3>
+                        <p class="text-gray-600">Click the button to place your order through our secure Shopify store.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-navy-500 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">2</div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-3">Add a Personal Touch</h3>
+                        <p class="text-gray-600">Include a personal message for your sailor during checkout.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-navy-500 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">3</div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-3">We Ship Worldwide</h3>
+                        <p class="text-gray-600">We handle everything, shipping directly to your sailor anywhere in the world.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 bg-navy-500">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Send Love Across the Ocean?</h2>
+                <p class="text-xl text-white/80 mb-4">$79.99 with FREE worldwide shipping</p>
+                <p class="text-white/70 mb-10">Your sailor deserves to feel remembered. Send a package today.</p>
+                <a href="https://396cc9-ef.myshopify.com/products/starter-box-savior-sailor" target="_blank" class="inline-flex items-center justify-center bg-sunny-500 text-navy-600 px-10 py-5 rounded-full text-xl font-bold hover:bg-sunny-400 transition shadow-lg">
+                    Send a Care Package Now
+                    <svg class="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                </a>
+                <p class="mt-8 text-white/60">
+                    On active duty?
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" target="_blank" class="text-sunny-400 hover:text-sunny-300 underline">
+                        Request a free care package
+                    </a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-navy-600 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div class="md:col-span-2">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-16 mb-4 brightness-0 invert">
+                    <p class="text-white/70 mb-6 max-w-md">Supporting sailors at sea with care packages designed by veterans. Founded by FCA2(SW) Alex Velichko.</p>
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/profile.php?id=100075436362467" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="Facebook"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                        <a href="https://www.instagram.com/savior.sailor/" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="Instagram"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                        <a href="https://www.youtube.com/channel/UCyII3UTiO0U8al3tDQ8OHOA" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="YouTube"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-white/70 hover:text-sunny-400 transition">About Us</a></li>
+                        <li><a href="care-packages.html" class="text-white/70 hover:text-sunny-400 transition">Care Packages</a></li>
+                        <li><a href="sponsor-a-sailor.html" class="text-white/70 hover:text-sunny-400 transition">Become a Sponsor</a></li>
+                        <li><a href="sponsors.html" class="text-white/70 hover:text-sunny-400 transition">Our Sponsors</a></li>
+                        <li><a href="gallery.html" class="text-white/70 hover:text-sunny-400 transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-3">
+                        <li><a href="mailto:saviorsailor75@gmail.com" class="text-white/70 hover:text-sunny-400 transition">saviorsailor75@gmail.com</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" target="_blank" class="text-white/70 hover:text-sunny-400 transition">Request a Package</a></li>
+                        <li><a href="terms.html" class="text-white/70 hover:text-sunny-400 transition">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/20 mt-12 pt-8 text-center">
+                <p class="text-white/60">&copy; 2025 Savior Sailor. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
