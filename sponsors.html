@@ -1,335 +1,309 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KT701YNK8L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KT701YNK8L');
-</script>
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Savior Sailor - Our Sponsors</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Explore the generous businesses and individuals sponsoring our troops through Savior Sailor. Learn more about these sponsors who send care packages to service members, providing essential support and heartfelt appreciation.">
-    <meta name="author" content="Alex Velichko" />
+
+    <title>Our Sponsors | Savior Sailor - Supporting Military Care Packages</title>
+    <meta name="description" content="Meet the businesses and individuals sponsoring care packages for sailors through Savior Sailor. Support our sponsors and join the mission.">
+    <meta name="keywords" content="savior sailor sponsors, military sponsors, support troops sponsors, sailor sponsorship">
+    <meta name="author" content="Alex Velichko">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://saviorsailor.com/sponsors.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Our Sponsors | Savior Sailor">
+    <meta property="og:description" content="Meet the businesses and individuals sponsoring care packages for sailors.">
+    <meta property="og:image" content="https://saviorsailor.com/images/logo.png">
+    <meta property="og:url" content="https://saviorsailor.com/sponsors.html">
+    <meta property="og:site_name" content="Savior Sailor">
 
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css"> 
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css"> 
-    <!-- Simple Line Icons -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css"> 
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css"> 
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
 
-    <style>
-        .image-container {
-            height: 200px;
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': { 50: '#E8F0F7', 100: '#C5D9EB', 500: '#1E3A5F', 600: '#1A3352' },
+                        'sunny': { 50: '#FFFBEB', 100: '#FEF9E7', 300: '#FBE89A', 400: '#F9E06D', 500: '#F7D547', 600: '#E5C33A' },
+                        'sky': { 50: '#F0F9FF', 100: '#E8F4FA', 500: '#6BB8E0', 600: '#4A9FCC' },
+                    },
+                    fontFamily: { 'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'] },
+                },
+            },
         }
-        .call-to-action-bottom {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-bottom: 4rem;
-        }
-        .call-to-action-bottom .btn {
-            margin-bottom: 1rem;
-        }
+    </script>
 
-        #fh5co-sponsor-sailor {
-            padding-top: 100px; /* Adjust the padding value as needed */
-        }
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT701YNK8L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KT701YNK8L');
+    </script>
 
-        ul.custom-list {
-            list-style-type: none; /* Remove bullet points */
-            padding: 0; /* Remove default padding */
-        }
-
-        ul.custom-list li {
-            margin-bottom: 10px; /* Add some space between items */
-            padding-left: 20px; /* Add some padding for better alignment */
-            position: relative; /* Position relative to allow for custom bullet */
-        }
-
-        .sponsor-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
-}
-
-.sponsor-card {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-.sponsor-image {
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background-color: #f7f7f7;
-}
-
-.sponsor-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.sponsor-content {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center; /* Center text on all screens */
-}
-
-.sponsor-title {
-  margin: 0;
-  font-size: 1.25em;
-}
-
-.sponsor-sailors {
-  margin: 0;
-  color: gray;
-  font-size: 0.9em;
-}
-
-.sponsor-description {
-  margin-top: 8px;
-  flex: 1;
-}
-
-.sponsor-button {
-  text-decoration: none;
-  color: white;
-  background-color: #007bff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-align: center;
-  display: inline-block;
-  margin-top: auto;
-  align-self: center; /* Center button on all screens */
-}
-
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .sponsor-card {
-    flex-direction: column;
-    height: auto; /* Adjust height for smaller screens */
-  }
-
-  .sponsor-image {
-    height: 150px; /* Adjust image height for smaller screens */
-  }
-
-  .sponsor-content {
-    padding: 12px;
-    text-align: center; /* Center text on mobile */
-  }
-
-  .sponsor-title {
-    font-size: 1.1em;
-  }
-
-  .sponsor-button {
-    align-self: center; /* Center button on mobile */
-  }
-}
-
-
-
-    </style>
+    <style>html { scroll-behavior: smooth; }</style>
 </head>
-<body>
-    <header role="banner" id="fh5co-header">
-		<div class="container">
-			<div class="row">
-				<nav class="navbar navbar-default navbar-fixed-top">
-					<div class="navbar-header">
-						<!-- Mobile Toggle Menu Button -->
-						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-						<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Savior Sailor Logo" class="navbar-logo"></a>
-					</div>
-					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="index.html" data-nav-section="home"><span>Home</span></a></li>
-							<li><a href="about.html" data-nav-section="explore"><span>About</span></a></li>
-							<li><a href="care_packages.html"><span>Send a Care Package</span></a></li>
-							<li><a href="sponsor_a_sailor.html" data-nav-section="testimony"><span>Sponsor a Sailor</span></a></li>
-                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" target="_blank"><span>Receive a Care Package</span></a></li>
-						</ul>
-					</div>
-				</nav>
-				
-			</div>
-	  </div>
-	</header>
+<body class="font-sans text-gray-700 antialiased">
 
-<section id="fh5co-sponsor-sailor" data-section="sponsor-sailor">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading text-center">
-                
-                <p>At Savior Sailor, we are deeply grateful to the businesses and individuals who sponsor our troops. These generous sponsors send care packages to service members in need, offering essential support and heartfelt appreciation. Explore the stories behind these sponsors and consider giving your patronage to these businesses to support their continued generosity.</p>
-                <div class="call-to-action-bottom d-flex flex-column align-items-center text-center" style="width: 100%;">
-                    <a href="sponsor_a_sailor.html" class="btn btn-primary mt-5 mb-2 btn-responsive">Become a Sponsor</a>
-                    </div>
-                    <h1 class="animate-box">Our Sponsors</h1>
+    <!-- Navigation -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 md:h-20">
+                <a href="index.html" class="flex-shrink-0">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-12 md:h-14 w-auto">
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-navy-500 font-medium transition">About</a>
+                    <a href="care-packages.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Care Packages</a>
+                    <a href="sponsor-a-sailor.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Sponsor</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Gallery</a>
+                </div>
+                <a href="sponsor-a-sailor.html" class="hidden md:inline-flex bg-navy-500 text-white px-5 py-2.5 rounded-full font-semibold hover:bg-navy-600 transition shadow-lg shadow-navy-500/25">
+                    Become a Sponsor
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100" aria-label="Open menu">
+                    <svg class="w-6 h-6 text-navy-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
             </div>
-            
-        </div>
-    </div>
-</section>
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="index.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">About</a>
+                    <a href="care-packages.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Care Packages</a>
+                    <a href="sponsor-a-sailor.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Sponsor</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Gallery</a>
+                    <a href="sponsor-a-sailor.html" class="bg-navy-500 text-white px-5 py-3 rounded-full font-semibold text-center mt-2">Become a Sponsor</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-32 pb-16 bg-gradient-to-b from-sunny-100 to-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <span class="inline-block bg-sunny-500 text-navy-600 px-4 py-1 rounded-full text-sm font-bold mb-4">Thank You</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-navy-500 mb-6">Our Proud Sponsors</h1>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+                    We're deeply grateful to these businesses and individuals who help us support sailors across the globe. Consider showing them your support.
+                </p>
+                <a href="sponsor-a-sailor.html" class="inline-flex items-center justify-center bg-navy-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-navy-600 transition shadow-lg shadow-navy-500/25">
+                    Join Our Sponsors
+                </a>
+            </div>
+        </section>
 
+        <!-- Sponsors Grid -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-<div class="sponsor-grid">
-    <div class="sponsor-card">
-      <div class="sponsor-image">
-        <img src="images/sponsors/always_an_angel_homecare.svg" alt="Always an Angel Homecare">
-      </div>
-      <div class="sponsor-content">
-        <h3 class="sponsor-title">Always an Angel Homecare</h3>
-        <p class="sponsor-description">We take a thoughtful and compassionate approach to all our best practices and decisions looking through the eyes of our hearts. Partnering with families, together, we will navigate the stages of aging and illness.</p>
-        <a href="https://alwaysanangelhomecare.com" target="_blank" class="sponsor-button">Find a Caregiver</a>
-      </div>
-    </div>
-    <div class="sponsor-card">
-      <div class="sponsor-image">
-        <img src="images/sponsors/micah_lee_realty.webp" alt="Micah & Val Lee Realty">
-      </div>
-      <div class="sponsor-content">
-        <h3 class="sponsor-title">Micah & Val Lee Realty</h3>
-        <p class="sponsor-description">Navy Veteran & Chief Petty Officer turned Real Estate Agent serving the Hampton Roads and Norfolk community <br><br> You deserve to work with a trustworthy and knowledgeable real estate partner who will listen.</p>
-        <a href="https://www.micahleeleadershipinrealty.com/" target="_blank" class="sponsor-button">Norfolk Real Estate Agent</a>
-      </div>
-    </div>
-    <!-- Repeat the .sponsor-card for more cards -->
-      <div class="sponsor-card">
-        <div class="sponsor-image">
-          <img src="images/sponsors/happyhopper.png" alt="HappyHopper">
-        </div>
-        <div class="sponsor-content">
-          <h3 class="sponsor-title">HappyHopper</h3>
-          <p class="sponsor-description">With the largest database of happy hour deals and specials on the internet, Happy Hopper is the gateway to locating the best food and drink deals wherever you go. <br><br> Experience more. Spend less.</p>
-          <a href="https://happyhopper.app" target="_blank" class="sponsor-button">Find Happy Hours Near Me</a>
-        </div>
-      </div>
-      <div class="sponsor-card">
-        <div class="sponsor-image">
-          <img src="images/sponsors/green_leaf_pest_control.png" alt="Green Leaf Pest Solutions">
-        </div>
-        <div class="sponsor-content">
-          <h3 class="sponsor-title">Green Leaf Pest Solutions</h3>
-          <p class="sponsor-description">Serving Chesapeake and the surrounding Hampton Roads area, Green Leaf Pest Solutions is a locally owned and operated pest control company with over 15 years of combined experience.</p>
-          <a href="https://www.greenleafpestsolutionsva.com" target="_blank" class="sponsor-button">Pest Solutions in Chesapeake</a>
-        </div>
-      </div>
-      <div class="sponsor-card">
-        <div class="sponsor-image">
-          <img src="images/sponsors/karlasbeachhouse.png" alt="Karla's Beach House">
-        </div>
-        <div class="sponsor-content">
-          <h3 class="sponsor-title">Karla's Beach House</h3>
-          <p class="sponsor-description">Serving up breakfast and brunch, Karla's Beach House is a woman owned staple of the Norfolk Community.</p>
-          <a href="https://www.karlasbeachhouse.com" target="_blank" class="sponsor-button">Norfolk Breakfast & Brunch</a>
-        </div>
-      </div>
-      <div class="sponsor-card">
-        <div class="sponsor-image">
-          <img src="images/sponsors/nate_rentals.png" alt="Nate Rentals">
-        </div>
-        <div class="sponsor-content">
-          <h3 class="sponsor-title">Nate Rentals</h3>
-          <p class="sponsor-description">Nate Rentals has proudly been serving the Binghamton community for over 10 years. A Great Choice for Binghamton Off Campus Housing! Best Locations, Great Amenities, Prompt and Friendly Maintenance, Unbeatable Prices!</p>
-          <a href="https://naterentals.com"  target="_blank" class="sponsor-button">Find Binghamton Off Campus Housing</a>
-        </div>
-      </div>
+                    <!-- Sponsor Card: Always an Angel Homecare -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/always_an_angel_homecare.svg" alt="Always an Angel Homecare" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">Always an Angel Homecare</h3>
+                            <p class="text-gray-600 text-sm mb-4">We take a thoughtful and compassionate approach to all our best practices and decisions. Partnering with families, together, we will navigate the stages of aging and illness.</p>
+                            <a href="https://alwaysanangelhomecare.com" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Find a Caregiver
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
 
-      <div class="sponsor-card">
-        <div class="sponsor-image">
-          <img src="images/sponsors/samantha_burnell_photography.png" alt="Samantha Burnell Photography">
-        </div>
-        <div class="sponsor-content">
-          <h3 class="sponsor-title">Samantha Burnell Photography</h3>
-          <p class="sponsor-description">Virginia Portrait and Wedding Photographer. <br><br> Specializing in Engagements, Couples, Family Portraits and Maternity photos. </p>
-          <p class="sponsor-description">Accepting 2024 & 2025 Bookings! </p>
-          <a href="https://www.instagram.com/samanthaburnellphoto"  target="_blank" class="sponsor-button">Get Wedding & Portrait Photos</a>
-        </div>
-      </div>
-      <div class="sponsor-card">
-        <div class="sponsor-image">
-          <img src="images/sponsors/two-brothers-dogwash.jpg" alt="Two Brothers Dog Wash">
-        </div>
-        <div class="sponsor-content">
-          <h3 class="sponsor-title">Two Brothers Dog Wash</h3>
-          <p class="sponsor-description">Two Brothers Dog Wash is a locally owned and operated dog wash and grooming business in Norfolk, Virginia. We offer a wide range of services to keep your furry friend looking and feeling their best.</p>
-          <a href="https://www.twobrothersdogwash.com/"  target="_blank" class="sponsor-button">Dog Wash Near Norfolk</a>
-        </div>
-      </div>
-        <div class="sponsor-card">
-        <div class="sponsor-image">
-          <img src="images/sponsors/faction-media.jpeg" alt="Faction Media">
-        </div>
-        <div class="sponsor-content">
-          <h3 class="sponsor-title">Faction Media</h3>
-          <p class="sponsor-description">Faction Media is a full-service digital marketing agency that specializes in website design, SEO, and social media management.</p>
-          <a href="https://factionmedia.io/"  target="_blank" class="sponsor-button">Get Digital Marketing Help</a>
-        </div>
-      </div>
-  </div>
+                    <!-- Sponsor Card: Micah & Val Lee Realty -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/micah_lee_realty.webp" alt="Micah & Val Lee Realty" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">Micah & Val Lee Realty</h3>
+                            <p class="text-gray-600 text-sm mb-4">Navy Veteran & Chief Petty Officer turned Real Estate Agent serving the Hampton Roads and Norfolk community. You deserve a trustworthy and knowledgeable real estate partner.</p>
+                            <a href="https://www.micahleeleadershipinrealty.com/" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Norfolk Real Estate
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
 
-  <div class="call-to-action-bottom d-flex flex-column align-items-center text-center" style="width: 100%;">
-    <a href="sponsor_a_sailor.html" class="btn btn-primary mt-5 mb-2 btn-responsive">Become a Sponsor</a>
-    </div>
-  
-          
-      
-      
-  
-  
-  
+                    <!-- Sponsor Card: HappyHopper -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/happyhopper.png" alt="HappyHopper" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">HappyHopper</h3>
+                            <p class="text-gray-600 text-sm mb-4">The largest database of happy hour deals and specials on the internet. Happy Hopper is your gateway to finding the best food and drink deals wherever you go.</p>
+                            <a href="https://happyhopper.app" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Find Happy Hours
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
 
+                    <!-- Sponsor Card: Green Leaf Pest Solutions -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/green_leaf_pest_control.png" alt="Green Leaf Pest Solutions" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">Green Leaf Pest Solutions</h3>
+                            <p class="text-gray-600 text-sm mb-4">Serving Chesapeake and the surrounding Hampton Roads area. A locally owned and operated pest control company with over 15 years of combined experience.</p>
+                            <a href="https://www.greenleafpestsolutionsva.com" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Pest Solutions
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
 
-<div id="footer-placeholder"></div>
+                    <!-- Sponsor Card: Karla's Beach House -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/karlasbeachhouse.png" alt="Karla's Beach House" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">Karla's Beach House</h3>
+                            <p class="text-gray-600 text-sm mb-4">Serving up breakfast and brunch, Karla's Beach House is a woman owned staple of the Norfolk Community.</p>
+                            <a href="https://www.karlasbeachhouse.com" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Norfolk Breakfast
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
 
-    <!-- Load the footer script -->
-    <script src="js/footer.js"></script>
+                    <!-- Sponsor Card: Nate Rentals -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/nate_rentals.png" alt="Nate Rentals" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">Nate Rentals</h3>
+                            <p class="text-gray-600 text-sm mb-4">Proudly serving the Binghamton community for over 10 years. A great choice for off campus housing with best locations, great amenities, and unbeatable prices!</p>
+                            <a href="https://naterentals.com" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Binghamton Housing
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
 
-<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
-<!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<!-- Stellar Parallax -->
-<script src="js/jquery.stellar.min.js"></script>
-<!-- Counters -->
-<script src="js/jquery.countTo.js"></script>
-<!-- Main JS (Do not remove) -->
-<script src="js/main.js"></script>
+                    <!-- Sponsor Card: Samantha Burnell Photography -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/samantha_burnell_photography.png" alt="Samantha Burnell Photography" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">Samantha Burnell Photography</h3>
+                            <p class="text-gray-600 text-sm mb-4">Virginia Portrait and Wedding Photographer. Specializing in engagements, couples, family portraits and maternity photos. Accepting 2024 & 2025 bookings!</p>
+                            <a href="https://www.instagram.com/samanthaburnellphoto" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Wedding Photos
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
 
+                    <!-- Sponsor Card: Two Brothers Dog Wash -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/two-brothers-dogwash.jpg" alt="Two Brothers Dog Wash" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">Two Brothers Dog Wash</h3>
+                            <p class="text-gray-600 text-sm mb-4">Locally owned and operated dog wash and grooming business in Norfolk, Virginia. We offer a wide range of services to keep your furry friend looking and feeling their best.</p>
+                            <a href="https://www.twobrothersdogwash.com/" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Dog Grooming
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Sponsor Card: Faction Media -->
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+                        <div class="h-40 bg-gray-50 flex items-center justify-center p-6">
+                            <img src="images/sponsors/faction-media.jpeg" alt="Faction Media" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-navy-500 mb-3">Faction Media</h3>
+                            <p class="text-gray-600 text-sm mb-4">A full-service digital marketing agency that specializes in website design, SEO, and social media management.</p>
+                            <a href="https://factionmedia.io/" target="_blank" class="inline-flex items-center bg-navy-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-navy-600 transition">
+                                Digital Marketing
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 bg-navy-500">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Want to Join Our Sponsor Family?</h2>
+                <p class="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+                    Your business can make a real difference in the lives of sailors. Get featured on our website and show your community you care.
+                </p>
+                <a href="sponsor-a-sailor.html" class="inline-flex items-center justify-center bg-sunny-500 text-navy-600 px-8 py-4 rounded-full text-lg font-bold hover:bg-sunny-400 transition shadow-lg">
+                    Become a Sponsor
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-navy-600 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div class="md:col-span-2">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-16 mb-4 brightness-0 invert">
+                    <p class="text-white/70 mb-6 max-w-md">Supporting sailors at sea with care packages designed by veterans.</p>
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/profile.php?id=100075436362467" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="Facebook"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                        <a href="https://www.instagram.com/savior.sailor/" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="Instagram"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                        <a href="https://www.youtube.com/channel/UCyII3UTiO0U8al3tDQ8OHOA" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="YouTube"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-white/70 hover:text-sunny-400 transition">About Us</a></li>
+                        <li><a href="care-packages.html" class="text-white/70 hover:text-sunny-400 transition">Care Packages</a></li>
+                        <li><a href="sponsor-a-sailor.html" class="text-white/70 hover:text-sunny-400 transition">Become a Sponsor</a></li>
+                        <li><a href="sponsors.html" class="text-white/70 hover:text-sunny-400 transition">Our Sponsors</a></li>
+                        <li><a href="gallery.html" class="text-white/70 hover:text-sunny-400 transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-3">
+                        <li><a href="mailto:saviorsailor75@gmail.com" class="text-white/70 hover:text-sunny-400 transition">saviorsailor75@gmail.com</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" target="_blank" class="text-white/70 hover:text-sunny-400 transition">Request a Package</a></li>
+                        <li><a href="terms.html" class="text-white/70 hover:text-sunny-400 transition">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/20 mt-12 pt-8 text-center">
+                <p class="text-white/60">&copy; 2025 Savior Sailor. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

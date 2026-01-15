@@ -1,138 +1,315 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KT701YNK8L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KT701YNK8L');
-</script>
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Savior Sailor - About</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="At Savior Sailor, we specialize in care packages designed to bring comfort and a touch of home to sailors while they are away. Each package is filled with items that make the transition from land to sea smoother, whether it’s your first deployment or your last.">
-    <meta name="author" content="Alex Velichko" />
+
+    <title>About Savior Sailor - Our Story & Mission</title>
+    <meta name="description" content="Learn about Savior Sailor, founded by FCA2(SW) Alex Velichko with 8+ years of Navy service. Discover our mission to support sailors with care packages designed by veterans.">
+    <meta name="keywords" content="about savior sailor, alex velichko, navy veteran, military care packages, sailor support organization">
+    <meta name="author" content="Alex Velichko">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://saviorsailor.com/about.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Savior Sailor - Our Story & Mission">
+    <meta property="og:description" content="Learn about Savior Sailor, founded by FCA2(SW) Alex Velichko with 8+ years of Navy service.">
+    <meta property="og:image" content="https://saviorsailor.com/images/alex.png">
+    <meta property="og:url" content="https://saviorsailor.com/about.html">
+    <meta property="og:site_name" content="Savior Sailor">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Savior Sailor - Our Story & Mission">
+    <meta name="twitter:description" content="Learn about Savior Sailor, founded by FCA2(SW) Alex Velichko.">
+    <meta name="twitter:image" content="https://saviorsailor.com/images/alex.png">
 
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css"> 
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css"> 
-    <!-- Simple Line Icons -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css"> 
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css"> 
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': {
+                            50: '#E8F0F7',
+                            100: '#C5D9EB',
+                            500: '#1E3A5F',
+                            600: '#1A3352',
+                        },
+                        'sunny': {
+                            300: '#FBE89A',
+                            400: '#F9E06D',
+                            500: '#F7D547',
+                            600: '#E5C33A',
+                        },
+                        'sky': {
+                            100: '#E8F4FA',
+                            200: '#B8DCF0',
+                            500: '#6BB8E0',
+                            600: '#4A9FCC',
+                        },
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT701YNK8L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KT701YNK8L');
+    </script>
 
     <style>
-        .image-container {
-            height: 200px;
-        }
-        .call-to-action-bottom {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-bottom: 4rem;
-        }
-        .call-to-action-bottom .btn {
-            margin-bottom: 1rem;
-        }
-
-        #fh5co-sponsor-sailor {
-            padding-top: 100px; /* Adjust the padding value as needed */
-        }
-
-        ul.custom-list {
-            list-style-type: none; /* Remove bullet points */
-            padding: 0; /* Remove default padding */
-        }
-
-        ul.custom-list li {
-            margin-bottom: 10px; /* Add some space between items */
-            padding-left: 20px; /* Add some padding for better alignment */
-            position: relative; /* Position relative to allow for custom bullet */
-        }
+        html { scroll-behavior: smooth; }
     </style>
 </head>
-<body>
-    <header role="banner" id="fh5co-header">
-		<div class="container">
-			<div class="row">
-				<nav class="navbar navbar-default navbar-fixed-top">
-					<div class="navbar-header">
-						<!-- Mobile Toggle Menu Button -->
-						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-						<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Savior Sailor Logo" class="navbar-logo"></a>
-					</div>
-					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="index.html" data-nav-section="home"><span>Home</span></a></li>
-							<li><a href="about.html" data-nav-section="explore"><span>About</span></a></li>
-							<li><a href="care_packages.html"><span>Send a Care Package</span></a></li>
-							<li><a href="sponsor_a_sailor.html" data-nav-section="testimony"><span>Sponsor a Sailor</span></a></li>
-                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" target="_blank"><span>Receive a Care Package</span></a></li>
-						</ul>
-					</div>
-				</nav>
-				
-			</div>
-	  </div>
-	</header>
+<body class="font-sans text-gray-700 antialiased">
 
-<section id="fh5co-sponsor-sailor" data-section="sponsor-sailor">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading text-center">
-                <h1 class="animate-box">About Savior Sailor</h1>
+    <!-- Navigation -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 md:h-20">
+                <a href="index.html" class="flex-shrink-0">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-12 md:h-14 w-auto">
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Home</a>
+                    <a href="about.html" class="text-navy-500 font-semibold border-b-2 border-sunny-500">About</a>
+                    <a href="care-packages.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Care Packages</a>
+                    <a href="sponsor-a-sailor.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Sponsor</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Gallery</a>
+                </div>
+                <a href="care-packages.html" class="hidden md:inline-flex bg-navy-500 text-white px-5 py-2.5 rounded-full font-semibold hover:bg-navy-600 transition shadow-lg shadow-navy-500/25">
+                    Send a Package
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100" aria-label="Open menu">
+                    <svg class="w-6 h-6 text-navy-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 left-column mb-4">
-                <img src="images/alex.png" alt="Savior Sailor Founder" style="max-width: 100%;">
-            </div>
-            <div class="col-md-6 right-column">
-                <div>
-                    <p>Hello! Welcome to Savior Sailor! My name is Alex, but I used to go by FCA2(SW) Velichko during my 8 years of service in the United States Navy. With over 22 months at sea, I often felt something was missing. This led me to found “Savior Sailor” and create a resource for service members and their loved ones.</p>
-                    <p>At Savior Sailor, we specialize in care packages designed to bring comfort and a touch of home to sailors while they are away. These packages are carefully curated based on my experiences and insights gathered from over 30 fellow service members. Each package is filled with items that make the transition from land to sea smoother, whether it’s your first deployment or your last.</p>
-                    <p>Our mission is to ensure that service members feel prepared and supported. Thank you so much for your service to this great country and for your support. I look forward to connecting with you in the future!</p>
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="index.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Home</a>
+                    <a href="about.html" class="text-navy-500 font-semibold py-2">About</a>
+                    <a href="care-packages.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Care Packages</a>
+                    <a href="sponsor-a-sailor.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Sponsor</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Gallery</a>
+                    <a href="care-packages.html" class="bg-navy-500 text-white px-5 py-3 rounded-full font-semibold text-center mt-2">Send a Package</a>
                 </div>
             </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-32 pb-16 bg-gradient-to-b from-sky-100 to-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <span class="inline-block bg-navy-100 text-navy-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">Our Story</span>
+                    <h1 class="text-4xl sm:text-5xl font-extrabold text-navy-500 mb-6">Meet the Founder</h1>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">A veteran's mission to ensure no sailor feels forgotten while serving at sea.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Story Section -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <!-- Image -->
+                    <div class="relative order-2 lg:order-1">
+                        <div class="absolute -inset-4 bg-sunny-400 rounded-3xl transform -rotate-3"></div>
+                        <img src="images/alex.png" alt="FCA2(SW) Alex Velichko - Founder of Savior Sailor" class="relative rounded-3xl shadow-2xl w-full">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="order-1 lg:order-2">
+                        <h2 class="text-3xl sm:text-4xl font-bold text-navy-500 mb-6">
+                            Hello! Welcome to Savior Sailor!
+                        </h2>
+                        <div class="space-y-4 text-lg text-gray-600 leading-relaxed">
+                            <p>
+                                My name is Alex, but I used to go by <strong class="text-navy-500">FCA2(SW) Velichko</strong> during my 8 years of service in the United States Navy. With over 22 months at sea, I often felt something was missing. This led me to found "Savior Sailor" and create a resource for service members and their loved ones.
+                            </p>
+                            <p>
+                                At Savior Sailor, we specialize in care packages designed to bring comfort and a touch of home to sailors while they are away. These packages are carefully curated based on my experiences and insights gathered from over 30 fellow service members.
+                            </p>
+                            <p>
+                                Each package is filled with items that make the transition from land to sea smoother, whether it's your first deployment or your last.
+                            </p>
+                            <p>
+                                Our mission is to ensure that service members feel prepared and supported. Thank you so much for your service to this great country and for your support. I look forward to connecting with you in the future!
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-4 mt-8">
+                            <div class="h-16 w-1 bg-sunny-500 rounded-full"></div>
+                            <div>
+                                <p class="font-bold text-xl text-navy-500">FCA2(SW) Alex Velichko</p>
+                                <p class="text-gray-500">Founder, Savior Sailor</p>
+                                <p class="text-gray-500">8+ Years U.S. Navy Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="py-16 bg-navy-500">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-white mb-4">By the Numbers</h2>
+                    <p class="text-white/80">The experience behind every care package</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <span class="block text-4xl sm:text-5xl font-bold text-sunny-400">8+</span>
+                        <span class="text-white/80">Years of Service</span>
+                    </div>
+                    <div class="text-center">
+                        <span class="block text-4xl sm:text-5xl font-bold text-sunny-400">22+</span>
+                        <span class="text-white/80">Months at Sea</span>
+                    </div>
+                    <div class="text-center">
+                        <span class="block text-4xl sm:text-5xl font-bold text-sunny-400">30+</span>
+                        <span class="text-white/80">Veterans Consulted</span>
+                    </div>
+                    <div class="text-center">
+                        <span class="block text-4xl sm:text-5xl font-bold text-sunny-400">126+</span>
+                        <span class="text-white/80">Packages Sent</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <span class="inline-block bg-sunny-100 text-sunny-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">What Drives Us</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-navy-500">Our Mission & Values</h2>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Mission -->
+                    <div class="bg-sky-50 rounded-2xl p-8 text-center">
+                        <div class="w-16 h-16 bg-sky-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-4">Our Mission</h3>
+                        <p class="text-gray-600">To ensure every sailor feels supported and remembered while serving at sea, providing them with the essentials and comforts of home.</p>
+                    </div>
+
+                    <!-- Vision -->
+                    <div class="bg-sunny-50 rounded-2xl p-8 text-center">
+                        <div class="w-16 h-16 bg-sunny-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-4">Our Vision</h3>
+                        <p class="text-gray-600">A world where every service member knows their community has their back, no matter how far from home they may be.</p>
+                    </div>
+
+                    <!-- Values -->
+                    <div class="bg-navy-50 rounded-2xl p-8 text-center">
+                        <div class="w-16 h-16 bg-navy-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-500 mb-4">Our Values</h3>
+                        <p class="text-gray-600">Service, authenticity, and compassion. Every package is crafted with the same care we'd want for our own shipmates.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 bg-gradient-to-r from-navy-500 to-navy-600">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Support a Sailor?</h2>
+                <p class="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+                    Join us in making a difference. Send a care package or become a sponsor today.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="care-packages.html" class="inline-flex items-center justify-center bg-sunny-500 text-navy-600 px-8 py-4 rounded-full text-lg font-bold hover:bg-sunny-400 transition shadow-lg">
+                        Send a Care Package
+                    </a>
+                    <a href="sponsor-a-sailor.html" class="inline-flex items-center justify-center border-2 border-white text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-white hover:text-navy-500 transition">
+                        Become a Sponsor
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-navy-600 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div class="md:col-span-2">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-16 mb-4 brightness-0 invert">
+                    <p class="text-white/70 mb-6 max-w-md">
+                        Supporting sailors at sea with care packages designed by veterans. Founded by FCA2(SW) Alex Velichko with 8+ years of Navy service.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/profile.php?id=100075436362467" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/savior.sailor/" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="Instagram">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCyII3UTiO0U8al3tDQ8OHOA" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="YouTube">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-white/70 hover:text-sunny-400 transition">About Us</a></li>
+                        <li><a href="care-packages.html" class="text-white/70 hover:text-sunny-400 transition">Care Packages</a></li>
+                        <li><a href="sponsor-a-sailor.html" class="text-white/70 hover:text-sunny-400 transition">Become a Sponsor</a></li>
+                        <li><a href="sponsors.html" class="text-white/70 hover:text-sunny-400 transition">Our Sponsors</a></li>
+                        <li><a href="gallery.html" class="text-white/70 hover:text-sunny-400 transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-3">
+                        <li><a href="mailto:saviorsailor75@gmail.com" class="text-white/70 hover:text-sunny-400 transition">saviorsailor75@gmail.com</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" target="_blank" class="text-white/70 hover:text-sunny-400 transition">Request a Package</a></li>
+                        <li><a href="terms.html" class="text-white/70 hover:text-sunny-400 transition">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/20 mt-12 pt-8 text-center">
+                <p class="text-white/60">&copy; 2025 Savior Sailor. All Rights Reserved.</p>
+            </div>
         </div>
-    </div>
-</section>
+    </footer>
 
-
-
-<div id="footer-placeholder"></div>
-
-    <!-- Load the footer script -->
-    <script src="js/footer.js"></script>
-
-<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
-<!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<!-- Stellar Parallax -->
-<script src="js/jquery.stellar.min.js"></script>
-<!-- Counters -->
-<script src="js/jquery.countTo.js"></script>
-<!-- Main JS (Do not remove) -->
-<script src="js/main.js"></script>
-
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Sponsor a Sailor - Support Our Troops | Savior Sailor</title>
+    <meta name="description" content="Become a sponsor and support sailors with care packages. Monthly subscriptions, bulk sponsorships, or custom options. Perfect for businesses and patriotic individuals.">
+    <meta name="keywords" content="sponsor a sailor, military sponsorship, support troops, sailor sponsorship program, corporate military support">
+    <meta name="author" content="Alex Velichko">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://saviorsailor.com/sponsor-a-sailor.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sponsor a Sailor - Support Our Troops | Savior Sailor">
+    <meta property="og:description" content="Become a sponsor and support sailors with care packages. Perfect for businesses and patriotic individuals.">
+    <meta property="og:image" content="https://saviorsailor.com/images/sponsor_care_package.jpeg">
+    <meta property="og:url" content="https://saviorsailor.com/sponsor-a-sailor.html">
+    <meta property="og:site_name" content="Savior Sailor">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sponsor a Sailor - Support Our Troops">
+    <meta name="twitter:description" content="Become a sponsor and support sailors with care packages.">
+    <meta name="twitter:image" content="https://saviorsailor.com/images/sponsor_care_package.jpeg">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': { 50: '#E8F0F7', 100: '#C5D9EB', 500: '#1E3A5F', 600: '#1A3352' },
+                        'sunny': { 50: '#FFFBEB', 100: '#FEF9E7', 300: '#FBE89A', 400: '#F9E06D', 500: '#F7D547', 600: '#E5C33A' },
+                        'sky': { 50: '#F0F9FF', 100: '#E8F4FA', 500: '#6BB8E0', 600: '#4A9FCC' },
+                    },
+                    fontFamily: { 'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'] },
+                },
+            },
+        }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT701YNK8L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KT701YNK8L');
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-scroll { animation: scroll 30s linear infinite; }
+        .animate-scroll:hover { animation-play-state: paused; }
+    </style>
+</head>
+<body class="font-sans text-gray-700 antialiased">
+
+    <!-- Navigation -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 md:h-20">
+                <a href="index.html" class="flex-shrink-0">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-12 md:h-14 w-auto">
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-navy-500 font-medium transition">About</a>
+                    <a href="care-packages.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Care Packages</a>
+                    <a href="sponsor-a-sailor.html" class="text-navy-500 font-semibold border-b-2 border-sunny-500">Sponsor</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-navy-500 font-medium transition">Gallery</a>
+                </div>
+                <a href="https://calendly.com/saviorsailor75" target="_blank" class="hidden md:inline-flex bg-navy-500 text-white px-5 py-2.5 rounded-full font-semibold hover:bg-navy-600 transition shadow-lg shadow-navy-500/25">
+                    Chat with Alex
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100" aria-label="Open menu">
+                    <svg class="w-6 h-6 text-navy-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="index.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">About</a>
+                    <a href="care-packages.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Care Packages</a>
+                    <a href="sponsor-a-sailor.html" class="text-navy-500 font-semibold py-2">Sponsor</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-navy-500 font-medium py-2">Gallery</a>
+                    <a href="https://calendly.com/saviorsailor75" target="_blank" class="bg-navy-500 text-white px-5 py-3 rounded-full font-semibold text-center mt-2">Chat with Alex</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-32 pb-16 bg-gradient-to-b from-sky-100 to-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto">
+                    <span class="inline-block bg-sunny-500 text-navy-600 px-4 py-1 rounded-full text-sm font-bold mb-4">For Businesses & Individuals</span>
+                    <h1 class="text-4xl sm:text-5xl font-extrabold text-navy-500 mb-6 leading-tight">
+                        Become a<br>
+                        <span class="text-sunny-600">Savior Sailor Sponsor</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-10 leading-relaxed">
+                        Whether you're a company or a patriotic individual, join us in supporting our sailors by sponsoring service members in need. Your sponsorship provides essential items and heartfelt connection to home.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsorship Options -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <span class="inline-block bg-navy-100 text-navy-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">Choose Your Path</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-navy-500 mb-4">Sponsorship Options</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Find the sponsorship level that works best for you.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Monthly Subscription -->
+                    <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 hover:border-sunny-500 hover:shadow-xl transition-all duration-300 relative">
+                        <span class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-sunny-500 text-navy-600 px-4 py-1 rounded-full text-sm font-bold">Most Popular</span>
+                        <div class="text-center mb-6">
+                            <div class="w-16 h-16 bg-sunny-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-sunny-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-500 mb-2">Monthly Subscription</h3>
+                            <p class="text-3xl font-bold text-navy-500">$79.99<span class="text-base font-normal text-gray-500">/month</span></p>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-gray-600">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Sponsor a new sailor each month
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Receive photos of your sponsored sailors
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Recognition on our sponsors page
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Cancel anytime
+                            </li>
+                        </ul>
+                        <a href="https://396cc9-ef.myshopify.com/products/care-package-monthly-subscription" target="_blank" class="block w-full bg-sunny-500 text-navy-600 text-center py-3 rounded-full font-bold hover:bg-sunny-400 transition">
+                            Start Monthly Sponsorship
+                        </a>
+                    </div>
+
+                    <!-- Bundle Option -->
+                    <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 hover:border-navy-500 hover:shadow-xl transition-all duration-300">
+                        <div class="text-center mb-6">
+                            <div class="w-16 h-16 bg-navy-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-navy-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-500 mb-2">Sponsor 12 Sailors</h3>
+                            <p class="text-3xl font-bold text-navy-500">$899<span class="text-base font-normal text-gray-500"> one-time</span></p>
+                            <p class="text-sm text-green-600 font-medium mt-1">Save $60 vs monthly</p>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-gray-600">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Sponsor 12 sailors at once
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Great for businesses
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Recognition plaque for display
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Social media shoutout
+                            </li>
+                        </ul>
+                        <a href="https://396cc9-ef.myshopify.com/products/care-package-bundle" target="_blank" class="block w-full bg-navy-500 text-white text-center py-3 rounded-full font-bold hover:bg-navy-600 transition">
+                            Sponsor 12 Sailors
+                        </a>
+                    </div>
+
+                    <!-- Custom Option -->
+                    <div class="bg-gradient-to-br from-sky-50 to-sunny-50 border-2 border-sky-200 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                        <div class="text-center mb-6">
+                            <div class="w-16 h-16 bg-sky-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-500 mb-2">Custom Sponsorship</h3>
+                            <p class="text-3xl font-bold text-navy-500">Let's Talk</p>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-gray-600">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Tailored to your goals
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Sponsor sailors from your area
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Corporate partnership options
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                                Event sponsorship available
+                            </li>
+                        </ul>
+                        <a href="https://calendly.com/saviorsailor75" target="_blank" class="block w-full bg-sky-500 text-white text-center py-3 rounded-full font-bold hover:bg-sky-600 transition">
+                            Schedule a Call with Alex
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Sponsor Section -->
+        <section class="py-20 bg-gradient-to-b from-sky-50 to-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <!-- Image -->
+                    <div class="relative">
+                        <img src="images/sponsor_care_package.jpeg" alt="Sponsored Care Package Contents" class="rounded-3xl shadow-2xl w-full">
+                    </div>
+
+                    <!-- Content -->
+                    <div>
+                        <span class="inline-block bg-sunny-100 text-sunny-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">Why Sponsor?</span>
+                        <h2 class="text-3xl sm:text-4xl font-bold text-navy-500 mb-8">Make a Real Difference</h2>
+
+                        <div class="space-y-6">
+                            <div class="flex gap-4">
+                                <div class="w-12 h-12 bg-sunny-100 rounded-xl flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6 text-sunny-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-navy-500 mb-2">Support Those Who Serve</h3>
+                                    <p class="text-gray-600">Your contribution provides much-needed supplies and boosts morale for sailors serving far from home.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4">
+                                <div class="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-navy-500 mb-2">Showcase Your Support</h3>
+                                    <p class="text-gray-600">Receive photos and plaques of sponsored sailors to display in your establishment, showing your commitment to the community.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4">
+                                <div class="w-12 h-12 bg-navy-100 rounded-xl flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6 text-navy-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-navy-500 mb-2">Make a Lasting Impact</h3>
+                                    <p class="text-gray-600">Every package brings a smile to a sailor's face and reminds them that their service is appreciated.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsor Carousel Section -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl font-bold text-navy-500 mb-4">Join These Amazing Sponsors</h2>
+                </div>
+                <div class="relative overflow-hidden py-8 bg-gray-50 rounded-2xl">
+                    <div class="flex animate-scroll">
+                        <div class="flex shrink-0 items-center gap-12 px-6">
+                            <a href="https://naterentals.com" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/nate_rentals.png" alt="Nate Rentals" class="h-16 w-auto"></a>
+                            <a href="https://alwaysanangelhomecare.com" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/always_an_angel_homecare.svg" alt="Always an Angel Homecare" class="h-16 w-auto"></a>
+                            <a href="https://happyhopper.app" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/happyhopper.png" alt="HappyHopper" class="h-16 w-auto"></a>
+                            <a href="https://www.greenleafpestsolutionsva.com/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/green_leaf_pest_control.png" alt="Green Leaf Pest Solutions" class="h-16 w-auto"></a>
+                            <a href="https://karlasbeachhouse.com/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/karlasbeachhouse.png" alt="Karla's Beach House" class="h-16 w-auto"></a>
+                            <a href="https://www.micahleeleadershipinrealty.com/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/micah_lee_realty.webp" alt="Micah & Val Lee Realty" class="h-16 w-auto"></a>
+                            <a href="https://www.instagram.com/samanthaburnellphoto" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/samantha_burnell_photography.png" alt="Samantha Burnell Photography" class="h-16 w-auto"></a>
+                            <a href="https://www.twobrothersdogwash.com/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/two-brothers-dogwash.jpg" alt="Two Brothers Dog Wash" class="h-16 w-auto"></a>
+                            <a href="https://factionmedia.io/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/faction-media.jpeg" alt="Faction Media" class="h-16 w-auto"></a>
+                        </div>
+                        <div class="flex shrink-0 items-center gap-12 px-6">
+                            <a href="https://naterentals.com" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/nate_rentals.png" alt="Nate Rentals" class="h-16 w-auto"></a>
+                            <a href="https://alwaysanangelhomecare.com" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/always_an_angel_homecare.svg" alt="Always an Angel Homecare" class="h-16 w-auto"></a>
+                            <a href="https://happyhopper.app" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/happyhopper.png" alt="HappyHopper" class="h-16 w-auto"></a>
+                            <a href="https://www.greenleafpestsolutionsva.com/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/green_leaf_pest_control.png" alt="Green Leaf Pest Solutions" class="h-16 w-auto"></a>
+                            <a href="https://karlasbeachhouse.com/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/karlasbeachhouse.png" alt="Karla's Beach House" class="h-16 w-auto"></a>
+                            <a href="https://www.micahleeleadershipinrealty.com/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/micah_lee_realty.webp" alt="Micah & Val Lee Realty" class="h-16 w-auto"></a>
+                            <a href="https://www.instagram.com/samanthaburnellphoto" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/samantha_burnell_photography.png" alt="Samantha Burnell Photography" class="h-16 w-auto"></a>
+                            <a href="https://www.twobrothersdogwash.com/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/two-brothers-dogwash.jpg" alt="Two Brothers Dog Wash" class="h-16 w-auto"></a>
+                            <a href="https://factionmedia.io/" target="_blank" class="shrink-0 grayscale hover:grayscale-0 transition-all duration-300"><img src="images/sponsors/faction-media.jpeg" alt="Faction Media" class="h-16 w-auto"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <a href="sponsors.html" class="inline-flex items-center text-navy-500 font-semibold hover:text-navy-600 transition">
+                        View All Sponsors
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 bg-navy-500">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Make a Difference?</h2>
+                <p class="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+                    Chat with Alex to customize your sponsorship or get started today with one of our standard options.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://calendly.com/saviorsailor75" target="_blank" class="inline-flex items-center justify-center bg-sunny-500 text-navy-600 px-8 py-4 rounded-full text-lg font-bold hover:bg-sunny-400 transition shadow-lg">
+                        <img src="images/alex-removebg.png" alt="Alex" class="w-8 h-8 rounded-full mr-3 object-cover">
+                        Chat with Alex
+                    </a>
+                    <a href="https://396cc9-ef.myshopify.com/products/care-package-monthly-subscription" target="_blank" class="inline-flex items-center justify-center border-2 border-white text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-white hover:text-navy-500 transition">
+                        Start Monthly Sponsorship
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-navy-600 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div class="md:col-span-2">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-16 mb-4 brightness-0 invert">
+                    <p class="text-white/70 mb-6 max-w-md">Supporting sailors at sea with care packages designed by veterans. Founded by FCA2(SW) Alex Velichko.</p>
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/profile.php?id=100075436362467" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="Facebook"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                        <a href="https://www.instagram.com/savior.sailor/" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="Instagram"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                        <a href="https://www.youtube.com/channel/UCyII3UTiO0U8al3tDQ8OHOA" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-sunny-500 transition" aria-label="YouTube"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-white/70 hover:text-sunny-400 transition">About Us</a></li>
+                        <li><a href="care-packages.html" class="text-white/70 hover:text-sunny-400 transition">Care Packages</a></li>
+                        <li><a href="sponsor-a-sailor.html" class="text-white/70 hover:text-sunny-400 transition">Become a Sponsor</a></li>
+                        <li><a href="sponsors.html" class="text-white/70 hover:text-sunny-400 transition">Our Sponsors</a></li>
+                        <li><a href="gallery.html" class="text-white/70 hover:text-sunny-400 transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-3">
+                        <li><a href="mailto:saviorsailor75@gmail.com" class="text-white/70 hover:text-sunny-400 transition">saviorsailor75@gmail.com</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy7ZWlisX8ndzR_FoNdvDSQmBSmhYnlDePDNXNyb4_Y5ce7Q/viewform?usp=sf_link" target="_blank" class="text-white/70 hover:text-sunny-400 transition">Request a Package</a></li>
+                        <li><a href="terms.html" class="text-white/70 hover:text-sunny-400 transition">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/20 mt-12 pt-8 text-center">
+                <p class="text-white/60">&copy; 2025 Savior Sailor. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
