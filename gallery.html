@@ -88,6 +88,16 @@
         html {
             scroll-behavior: smooth;
         }
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+            will-change: opacity, transform;
+        }
+        .reveal-on-scroll.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
     </style>
 </head>
 <body class="font-sans text-gray-700 antialiased">
@@ -156,6 +166,169 @@
                 <p class="text-xl text-white/80 max-w-2xl mx-auto">
                     From community events to care package deliveries, see the real impact of your support on sailors serving at sea.
                 </p>
+            </div>
+        </section>
+
+        <!-- Our Sailors Photo Gallery -->
+        <section class="py-16 sm:py-20 bg-gradient-to-b from-navy-50 to-white" id="our-sailors">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <span class="inline-block bg-navy-500/10 text-navy-500 px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+                        Care Package Recipients
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-navy-500 mb-4">Our Sailors</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Real sailors, real smiles. See the faces behind our mission as they receive their Savior Sailor care packages at sea.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-flow-dense auto-rows-[280px] sm:auto-rows-[250px] gap-4">
+
+                    <!-- 1 -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden reveal-on-scroll" style="transition-delay: 0s;">
+                        <img src="images/gallery/sailors/2483059E-ABCB-463E-A7D5-A40A346B9E40_1_105_c.jpeg"
+                             alt="Sailor in coveralls holding a Savior Sailor care package aboard ship"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 2 (Featured) -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden sm:row-span-2 reveal-on-scroll" style="transition-delay: 0.08s;">
+                        <img src="images/gallery/sailors/3AB5D12A-F865-4B1C-BEEB-9BA0AB46698E_1_105_c.jpeg"
+                             alt="Sailor flashing a peace sign with an open Savior Sailor care package filled with snacks"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden reveal-on-scroll" style="transition-delay: 0.16s;">
+                        <img src="images/gallery/sailors/2CCB0227-9116-48DB-AEEC-CFC7E10F60E4_1_105_c.jpeg"
+                             alt="Navy petty officer displaying his Savior Sailor care package in a shipboard workspace"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 4 (Featured) -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden sm:row-span-2 reveal-on-scroll" style="transition-delay: 0.24s;">
+                        <img src="images/gallery/sailors/56D4052F-CBDF-44E6-8DAA-E9699861F80B_1_105_c.jpeg"
+                             alt="Sailor giving a thumbs up while holding his Savior Sailor care package below decks"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden reveal-on-scroll" style="transition-delay: 0.32s;">
+                        <img src="images/gallery/sailors/8F5313FB-D4C9-43FF-8F0C-E19305DB038B_1_105_c.jpeg"
+                             alt="Sailor with glasses showing an open Savior Sailor care package full of snacks"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden reveal-on-scroll" style="transition-delay: 0.40s;">
+                        <img src="images/gallery/sailors/565C73C8-21E7-4070-BE9C-41748C9DA5FA_1_105_c.jpeg"
+                             alt="Sailor in red coveralls relaxing with his Savior Sailor care package aboard ship"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 7 (Featured) -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden sm:row-span-2 reveal-on-scroll" style="transition-delay: 0.48s;">
+                        <img src="images/gallery/sailors/A37FC2A4-AB45-4E7B-8755-0B5255DF9368_1_105_c.jpeg"
+                             alt="Two shipmates standing side by side, each holding their Savior Sailor care packages"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden reveal-on-scroll" style="transition-delay: 0.56s;">
+                        <img src="images/gallery/sailors/57EC9FA6-E5BD-4618-87AB-80A606E9D22E_1_105_c.jpeg"
+                             alt="Sailor opening his Savior Sailor care package and reading the welcome message inside"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 9 -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden reveal-on-scroll" style="transition-delay: 0.64s;">
+                        <img src="images/gallery/sailors/6CBFCB9D-FF2C-46A1-84CA-370E64E51D81_1_105_c.jpeg"
+                             alt="Sailor in a fleece jacket holding his Savior Sailor care package with a thumbs up"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 10 (Featured) -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden sm:row-span-2 reveal-on-scroll" style="transition-delay: 0.72s;">
+                        <img src="images/gallery/sailors/C71EEAA1-C008-4492-96CE-1DC25406EF8C_1_105_c.jpeg"
+                             alt="Sailor taking a selfie with his Savior Sailor care package in the red-lit berthing area"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 11 -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden reveal-on-scroll" style="transition-delay: 0.80s;">
+                        <img src="images/gallery/sailors/CA2BF954-8C2F-44F9-8036-7EC3260A7576_1_105_c.jpeg"
+                             alt="Sailor seated at a watch station holding his Savior Sailor care package"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                    <!-- 12 -->
+                    <div class="group relative rounded-2xl shadow-lg overflow-hidden reveal-on-scroll" style="transition-delay: 0.88s;">
+                        <img src="images/gallery/sailors/BAE891B7-2499-40B9-975F-39A935C51CC1_1_105_c.jpeg"
+                             alt="Sailor in red coveralls striking a fun pose with his Savior Sailor care package"
+                             data-lightbox
+                             loading="lazy"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-end p-4">
+                            <span class="text-white text-sm font-medium">Click to enlarge</span>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
@@ -295,7 +468,7 @@
             <div class="grid md:grid-cols-4 gap-12">
                 <!-- Brand Column -->
                 <div class="md:col-span-2">
-                    <img src="images/logo.png" alt="Savior Sailor" class="h-16 mb-4 brightness-0 invert">
+                    <img src="images/logo.png" alt="Savior Sailor" class="h-16 mb-4  ">
                     <p class="text-white/70 mb-6 max-w-md">
                         Supporting sailors at sea with care packages designed by veterans. Founded by FCA2(SW) Alex Velichko with 8+ years of Navy service.
                     </p>
@@ -345,7 +518,7 @@
 
             <!-- Bottom Bar -->
             <div class="border-t border-white/20 mt-12 pt-8 text-center">
-                <p class="text-white/60">&copy; 2025 Savior Sailor. All Rights Reserved.</p>
+                <p class="text-white/60">&copy; 2026 Savior Sailor. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
@@ -390,6 +563,20 @@
                     });
                 });
             });
+        });
+
+        // Scroll-reveal animation
+        const revealObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.reveal-on-scroll').forEach(function(el) {
+            revealObserver.observe(el);
         });
     </script>
 </body>
