@@ -2,44 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://saviorsailor.com/</loc>
-        <lastmod>2025-01-14</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://saviorsailor.com/about.html</loc>
-        <lastmod>2025-01-14</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://saviorsailor.com/care-packages.html</loc>
-        <lastmod>2025-01-14</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://saviorsailor.com/sponsor-a-sailor.html</loc>
-        <lastmod>2025-01-14</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://saviorsailor.com/sponsors.html</loc>
-        <lastmod>2025-01-14</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://saviorsailor.com/gallery.html</loc>
-        <lastmod>2025-01-14</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://saviorsailor.com/terms.html</loc>
-        <lastmod>2024-08-09</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list-comfort.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list-entertainment.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list-rack-hacks.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list-health-fitness.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list-food-drinks.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list-hygiene.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list-quick-fixes.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://saviorsailor.com/deployment-packing-list-miscellaneous.html</loc>
+        <lastmod>2026-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 </urlset>
